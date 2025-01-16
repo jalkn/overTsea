@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NZ trip</title>
+    <link rel="shortcut icon" href="./static/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .itemCarrusel{
+            position: relative; 
+            width: 100%;
+            padding-top: 50%;
+        }
+        
+        
+        .tarjetaCarrusel{
+            background-color: rgb(8, 64, 45);
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .flechasCarrusel{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+        
+        .flechasCarrusel a > i{  
+            color: white;
+            font-size: 30px;
+        }
+        
+        #container{
+            width: 100%; 
+            max-width: 600px; 
+            margin: 0 auto; 
+            overflow: hidden;
+        }
+        
+        .logo-container {
+            width: 100px;
+            height: 100px * (5/3);
+            position: relative;
+        }
+        
+        h6{
+            font-size: 12px;
+            position: absolute;
+            bottom: 150px;
+            color: white;
+            transform: translateX(-50%); 
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <div class="menu">
+                <a href="#01">0 1</a>
+                <a href="#02">0 2</a>
+                <a href="#03">0 3</a>
+                <a href="#04">0 4</a>
+                <a href="#05">0 5</a>
+                <a href="#06">0 6</a>
+                <a href="#07">0 7</a>
+                <a href="#08">0 8</a>
+                <a href="#09">0 9</a>
+                <a href="#10">1 0</a>
+                <a href="#11">1 1</a>
+                <a href="#12">1 2</a>
+                <a href="#13">1 3</a>
+                <a href="#14">1 4</a>
+                <a href="#15">1 5</a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="01">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/1.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#tasman"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#02"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="02">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/2.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#1"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#03"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="03">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/3.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#19"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#04"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="04">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/4.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#20"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#05"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="05">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/5.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#04"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#06"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="06">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/6.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#05"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#07"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="07">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/7.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#23"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#25"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="08">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/8.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#24"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#09"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="09">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/9.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#25"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#27"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="10">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/10.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#26"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#11"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="11">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/11.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#10"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#12"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="12">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/12.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#11"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#13"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="13">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/13.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#waimangu"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#harris"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="14">
+            <div class="tarjetaCarrusel" id="tarjeta2"><img src="./photos/14.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#fiorland"><i class="fa fa-chevron-left" ></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#harris"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="15">
+            <div class="tarjetaCarrusel" id="tarjeta3"><img src="./photos/15.png" alt=""></div>
+            <div class="flechasCarrusel">
+                <a href="#fiorland"><i class="fa fa-chevron-left"></i></a>
+                <div class="logo"><h6>©Alejalkndro Monsalve 2022 - Serie Drone Over The Sea</h6></div>
+                <a href="#pisa"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
