@@ -1,30 +1,6 @@
-# New Zealand Trip
+# Drone Over the Sea
 
-This repository contains photos from my trip to New Zealand, spanning 2020 to 2023.
-
-## Organization
-
-The photos are in low-resolution and organized by region/location. To get high-resolutions contact me.
-
-* **North Island:**
-    * **Auckland:** 
-    * **Bay of Islands:** 
-    * **Rotorua:** 
-    - https://jalkntoth.github.io/nzTrip/#redwood
-
-* **South Island:**
-    * **Fiordland National Park:** 
-    - https://jalkntoth.github.io/nzTrip/#fiorland
-    - https://jalkntoth.github.io/nzTrip/#milford
-    - https://jalkntoth.github.io/nzTrip/#harris
-
-    * **Queenstown:** 
-    - https://jalkntoth.github.io/nzTrip/#wakatipu
-    - https://jalkntoth.github.io/nzTrip/#bobs
-    - https://jalkntoth.github.io/nzTrip/#lemon
-    * **Wanaka:** 
-    - https://jalkntoth.github.io/nzTrip/#pisa
-    * **Aoraki/Mount Cook National Park:** 
+This repository contains photos from my paintings of the waves of the sea.
 
 ## Usage
 
