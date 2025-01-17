@@ -1,6 +1,6 @@
 from PIL import Image
 
-image_path = './img/3.png'
+image_path = 'photos/5.png'
 
 def flip_image_left_right(image_path):
     try:
@@ -15,4 +15,4 @@ flipped_image = flip_image_left_right(image_path)
 
 if flipped_image:
     # Option 1: Save the flipped image
-    flipped_image.save('./img/3.png')
+    flipped_image.save('photos/5.png')
